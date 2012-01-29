@@ -23,8 +23,7 @@
 
 # Camera
 PRODUCT_PACKAGES := \
-    Camera \
-    Gallery
+    Camera 
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
