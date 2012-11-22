@@ -57,14 +57,6 @@
         <item>/dev/bus/usb/001</item>
     </string-array>
 
-    <!-- Enabled Google Network Location Services with fusedlocation -->
-    <string-array name="config_locationProviderPackageNames" translatable="false">
-         <!--AOSP fused location provider -->
-         <item>com.android.location.fused</item>
-         <!-- The Google Network Location Services location provider -->
-         <item>com.google.android.location</item>
-    </string-array>
-
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
     <bool name="config_cellBroadcastAppLinks">true</bool>
 </resources>
